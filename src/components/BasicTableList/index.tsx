@@ -231,9 +231,9 @@ const create = (config: Config) => (WrappedComponent: ComponentType<WrappedCompo
       Object.keys(values).forEach((key: string) => {
         if (!exceptResetForm || exceptResetForm.indexOf(key) === -1) {
           form.setFieldsValue({
-            [key]: null,
+            [key]: undefined,
           });
-          newValues[key] = null;
+          delete newValues[key];
         }
       });
       this.setState(
