@@ -83,6 +83,10 @@ const create = (config: Config) => (WrappedComponent: ComponentType<WrappedCompo
       this.fetchDataSourceWithQueryString();
     }
 
+    componentWillUnmount() {
+      this.setState = () => false;
+    }
+
     fetchDataSourceWithQueryString = () => {
       let query = getPageQuery();
       if (prepareQuery) {
