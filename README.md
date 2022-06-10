@@ -25,6 +25,8 @@
 
 ## 环境搭建/安装
 
+> 需要使用 Node 12
+
 ```bash
 $ git clone https://github.com/izhengmy/antd-pro-admin-skeleton
 $ cd antd-pro-admin-skeleton
