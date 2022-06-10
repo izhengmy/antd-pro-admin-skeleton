@@ -216,7 +216,7 @@ export default {
   chainWebpack: webpackPlugin,
   proxy: {
     '/api/': {
-      target: 'http://laravel-skeleton.test/admin/api/',
+      target: 'http://127.0.0.1:8000/admin/api/',
       changeOrigin: true,
       pathRewrite: {
         '^/api': '',

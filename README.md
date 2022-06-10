@@ -21,12 +21,12 @@
 
 ## 服务端 API
 
-[https://github.com/zmy96/laravel-skeleton](https://github.com/zmy96/laravel-skeleton)
+[https://github.com/izhengmy/laravel-skeleton](https://github.com/izhengmy/laravel-skeleton)
 
 ## 环境搭建/安装
 
 ```bash
-$ git clone https://github.com/zmy96/antd-pro-admin-skeleton
+$ git clone https://github.com/izhengmy/antd-pro-admin-skeleton
 $ cd antd-pro-admin-skeleton
 $ npm install
 ```
