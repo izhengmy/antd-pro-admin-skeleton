@@ -62,7 +62,7 @@
     "react-dom": "^16.8.6",
     "react-json-view": "^1.19.1",
     "redux": "^4.0.1",
-    "umi": "^2.8.7",
+    "umi": "^4.0.41",
     "umi-plugin-pro-block": "^1.3.2",
     "umi-plugin-react": "^1.9.5",
     "umi-request": "^1.0.8"
